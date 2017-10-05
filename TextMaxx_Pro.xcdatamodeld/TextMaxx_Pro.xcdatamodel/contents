@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Accounts" representedClassName=".Accounts" syncable="YES">
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issuer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_four" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Await" representedClassName=".Await" syncable="YES">
+        <attribute name="accountNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verified" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Chat" representedClassName=".Chat" syncable="YES">
+        <attribute name="c" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="k" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="r" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="utc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="v" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName=".Contact" syncable="YES">
+        <attribute name="accountNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verified" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Inbox" representedClassName=".Inbox" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="account_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="h" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visible" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="w" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="window" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName=".Profile" syncable="YES">
+        <attribute name="accepted_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accepted_market" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accepts_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accepts_market" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="account_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="account_on_file" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awaiting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carrier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employees" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="error" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ivr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketed_when" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pending_account_opt_in" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pending_market_opt_in" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="received" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recently_marketed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stopped" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variables" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="web" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Recent" representedClassName=".Recent" syncable="YES">
+        <attribute name="account_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cell" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Template" representedClassName=".Template" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accounts" positionX="-18" positionY="153" width="128" height="150"/>
+        <element name="Await" positionX="-18" positionY="54" width="128" height="165"/>
+        <element name="Chat" positionX="-18" positionY="144" width="128" height="240"/>
+        <element name="Contact" positionX="-45" positionY="0" width="128" height="105"/>
+        <element name="Inbox" positionX="-18" positionY="90" width="128" height="255"/>
+        <element name="Profile" positionX="-9" positionY="162" width="128" height="420"/>
+        <element name="Recent" positionX="-18" positionY="153" width="128" height="90"/>
+        <element name="Template" positionX="9" positionY="126" width="128" height="105"/>
+    </elements>
+</model>
